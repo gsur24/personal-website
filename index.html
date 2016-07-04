@@ -4,39 +4,41 @@
 		<title>Gokul Suresh</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet"
 		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap-social.css">
+		<link rel="stylesheet" href="ihover.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script
 		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<div class="container-fluid">
-			<ul class = "nav nav-pills">
-				<li>
-					<a href="#">GS</a>
-				</li>
-	
-				<li class = "pull-right">
-					<a href="#">Contact Me</a>
-				<li class = "pull-right">
-					<a href="#">Resume</a>
-				</li>
-				<li class = "pull-right">
-					<a href="#">Projects</a>
-				</li>
-				
-				
-			</ul>
-		</div>
 
+	</head>
+	<body id="body">
+		
 		<div class="pageOne">
+			<div class="navbar-fixed-top">
+				<ul class = "nav nav-pills">
+					<li>
+						<a href="#body">GS</a>
+					</li>
+		
+					<li class = "pull-right">
+						<a href="#contact">Contact Me</a>
+					<li class = "pull-right">
+						<a href="#skill">Skills</a>
+					</li>
+					<li class = "pull-right">
+						<a href="#jumbo">Projects</a>
+					</li>
+				</ul>
+			</div>
 			<div class="block text-center">
 				<h1>Gokul Suresh</h1>
-				<h4>Computer Science Student | Programmer | Tennis Player</h2>
+				<h4>Computer Science Student | Programmer | Tennis Player</h4>
 				<div class = "btnList">
 					<a class="btn btn-social-icon btn-github" href="https://github.com/gsur24">
 						<span class="fa fa-github"></span>
@@ -44,23 +46,310 @@
 					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/gokuls24">
 						<span class="fa fa-linkedin"></span>
 					</a>
+					<a class="btn btn-social-icon btn-dropbox" href="untitled.pdf">
+						<span class="fa fa-file-text"></span>
+					</a>
 				</div>
 			</div>
 		</div>
 
+		<div class="pageTwo">
+			<header>
+				<div class="jumbotron" id="jumbo">
+					<div class="container">
+						<h1>Projects</h1>
+						<h5>Here are some of the projects that I've worked on during my time in college. Click on the images to view the source if it's available.</h5>
+					</div>
+				</div>
+			</header>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 ">
+						<div class="ih-item square effect6 from_top_and_bottom">
+							<a href="https://github.com/gsur24/gs8-chip8emulator">
+								<div class="img"><img src="chip8.png" alt="img"></div>
+								<div class="info">
+									<h3>Chip 8 Emulator</h3>
+									<p>Click to view GitHub source.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+						<div class="chip8 text-center">
+							<h2>GS8 - A Chip 8 Emulator</h2>
+						</div>	
+						<div class="chip82">
+							<p>Description: This is a Chip 8 emulator written in C++, which can play most Chip 8 games.</p>
+							<p>Technologies Used: C++, SDL2 Graphics Library</p>
+							<p>Side Effects: Took a few days to start reading numbers in decimal rather than hexadecimal again.</p>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="ih-item square effect6 from_top_and_bottom">
+							<a href="">
+								<div class="img"><img src="2048.png" alt="img"></div>
+								<div class="info">
+									<h3>A Replica 2048 Game</h3>
+									<p>I didn't make this source code public because the project might be reused in the class.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+						<div class="chip8 text-center">
+							<h2>A Replica 2048 Game</h2>
+						</div>	
+						<div class="chip82">
+							<p>Description: This was a project that we were assigned in one of my Computer Science Classes.</p>
+							<p>Technologies Used: Java, JavaFX</p>
+							<p>Side Effects: None really. If anything, I started enjoying college even more than I already did.</p>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="ih-item square effect6 from_top_and_bottom">
+							<a href="">
+								<div class="img"><img src="website.png" alt="img"></div>
+								<div class="info">
+									<h3>This Website</h3>
+									<p>Click to view GitHub source.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+						<div class="chip8 text-center">
+							<h2>This Website</h2>
+						</div>	
+						<div class="chip82">
+							<p>Description: I had some time to spare, so why not make a website!</p>
+							<p>Technologies Used: HTML, CSS, Bootstrap</p>
+							<p>Side Effects: I remembered how much I struggle with the artistic aspect.</p>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="pageSkills" id="skill">
+			<div class="container">
+				<div class="row">
+					<h1 class="text-center">Skills</h1>
+					<div class="col-md-12 col-lg-12">
+						<h4 class="text-center">Here are some of the technologies that I'm familiar with using</h4>
+					</div>
+				</div>
+				<div class="language-section col-md-6 col-lg-6">
+					<h4 class="text-center">Java</h4>
+					
+					<div class = "progress">
+   						<div class = "progress-bar progress-bar-success" role = "progressbar" 
+      					aria-valuenow = "65" aria-valuemin = "0" aria-valuemax = "100" style = "width: 60%;">
+      					Intermediate
+   						</div>
+					</div>
+					<h4 class="text-center">C++</h4>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info" style="width: 55%" aria-valuemin="0"
+						aria-valuenow="60" aria-valuemax="100">
+						Intermediate
+						</div>
+					</div>
+					<h4 class="text-center">C</h4>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning" style="width: 40%" aria-valuemin="0"
+						aria-valuenow="40" aria-valuemax="100">
+						Beginner
+						</div>
+					</div>
+					<h4 class="text-center">Python</h4>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" style="width: 30%" aria-valuemin="0"
+						aria-valuenow="30" aria-valuemax="100">
+						Beginner
+						</div>
+					</div>
+					<h4 class="text-center">HTML/CSS</h4>
+					<div class = "progress">
+   						<div class = "progress-bar progress-bar-success progress-bar-striped" role = "progressbar" 
+      					aria-valuenow = "30" aria-valuemin = "0" aria-valuemax = "100" style = "width: 30%;">
+      					Beginner
+   						</div>
+					</div>
+				</div>
+				<div class="tools-section col-md-6 col-lg-6 text-center">
+					<i class="devicon-bootstrap-plain-wordmark colored fa-5x"></i>
+					<i class="devicon-git-plain-wordmark colored fa-5x"></i>
+					<i class="devicon-vim-plain colored fa-5x"></i>
+				</div>
+				<div class="tools-section2 col-md-6 col-lg-6 text-center">
+					<i class="devicon-android-plain-wordmark colored fa-5x"></i>
+					<i class="devicon-ubuntu-plain-wordmark colored fa-5x"></i>
+					<i class="devicon-linux-plain colored fa-5x"></i>
+				</div>
+				<div class="tools-section3 col-md-6 col-lg-6 text-center">
+					<i class="devicon-javascript-plain colored fa-5x"></i>
+					<i class="devicon-photoshop-plain colored fa-5x"></i>
+					<i class="devicon-php-plain colored fa-5x"></i>
+				</div>
+				
+			</div>
+			<div class="resume-button text-center">
+				<a class="ghost-button text-center" href="untitled.pdf">View Resume</a>
+			</div>
+		</div>
+		<div class="pageContact" id="contact">
+			<h2 class="text-center">Contact Me</h2>
+			<div class="container">
+				<form id="contact-form" method="post" action="contact.php" role="form">
+					<div class="messages"></div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="example@example.com"/>
+					</div>
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Your Name Here"/>
+					</div>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea class="form-control" name="message" id="message" placeholder="Your message here"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+				<div class="container">
+					<p>Footer content here</p>
+				</div>
+			</div>
+
+			<script>
+			$(function() {
+				  $('a[href*="#"]:not([href="#"])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html, body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
 	</body>
 
 	<style>
 
+	.container-fluid {
+		margin-left: 15%;
+	}
+
+	.devicon-photoshop-plain {
+		padding: 30px;
+	}
+
+	.devicon-php-plain {
+		padding: 30px;
+	}
+
+	.devicon-bootstrap-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-javascript-plain {
+		padding: 30px;
+	}
+
+	.devicon-git-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-linux-plain {
+		padding: 30px;
+	}
+
+	.devicon-vim-plain {
+		padding: 30px;
+	}
+
+	.devicon-android-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-ubuntu-plain-wordmark {
+		padding: 30px;
+	}
+
+	.resume-button {
+		padding-top: 35px;
+	}
+
+	.ghost-button-transition {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: rgb(17, 85, 119);
+		border: 2px solid rgb(17, 85, 119);
+		border-radius: 5px;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		transition: background-color 0.2s ease-out,
+		color 0.2s ease-out;
+	}
+
+	.ghost-button:hover,
+	.ghost-button:active {
+		background-color: rgb(17, 85, 119);
+		color: white;
+		transition: background-color 0.3s ease-in,
+					color 0.3s ease-in;
+	}
+
+	.ghost-button {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: rgb(17, 85, 119);
+		border: 1px solid rgb(17, 85, 119);
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+	}
+
+	.row {
+		padding: 22px
+	}
 	body {
 		color: gray;
 		background-color: white;
+		height: 100%;
+		width: 100%;
+		padding-top: 50px;
 	}
 	.nav-pills a{
 		
 		color: gray; 
 		font-size: 1.4em;
+	}
 
+	.nav-pills {
+		background-color: white;
+	}
+
+	.tools-section {
+		padding-top: 45px;
+	}
+
+	.tools-section3 {
+		padding-top: 18px;
+	}
+
+	.tools-section2 {
+		padding-top: 30px;
+		padding-bottom: 18px;
 	}
 
 	.btn-linkedin {
@@ -72,7 +361,13 @@
 	.btn-github {
 		padding: 18px 18px;
     	font-size: 18px;
-    	border-radius: 8px;
+    	border-radius: 10px;
+	}
+
+	.btn-dropbox {
+		padding: 18px 18px;
+    	font-size: 18px;
+    	border-radius: 10px;
 	}
 
 	.block {
@@ -92,15 +387,60 @@
 		color: gray;
 	}
 
+	h2 {
+		color: rgb(17, 85, 119);
+	}
+
 	h4 {
+		color: black; 
+	}
+
+	h5 {
 		color: black;
 	}
 
 	.pageOne {
+		
 		background:url("https://images.unsplash.com/photo-1462819067004-905a72ea3996?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4832f28a526c7a3538a887b8fbbfe897");
 		background-size: cover;
-		height: 800px;
+		height: 700px;
+		width: 100%;
 		
+		
+	}
+
+	.chip8 {
+		color: white;
+
+	}
+
+	.chip82 {
+		color: white; 
+	}
+
+	.pageTwo {
+		
+		background-color: rgb(17, 85, 119);
+		background-size: cover;
+		height: 1020px;
+		width: 100%;
+		
+	}
+
+	.progress-info {
+		color: blue;
+
+	}
+	.pageSkills {
+		padding: 20px;
+		height: 700px;
+		color: black;
+	}
+
+	.pageContact {
+		padding: 30px;
+		height: 700px;
+		color: rgb(17, 85, 119);
 	}
 
 	</style>

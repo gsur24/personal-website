@@ -1,0 +1,200 @@
+.container-fluid {
+		margin-left: 15%;
+	}
+
+	.devicon-photoshop-plain {
+		padding: 30px;
+	}
+
+	.devicon-jquery-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-bootstrap-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-javascript-plain {
+		padding: 30px;
+	}
+
+	.devicon-git-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-linux-plain {
+		padding: 30px;
+	}
+
+	.devicon-vim-plain {
+		padding: 30px;
+	}
+
+	.devicon-android-plain-wordmark {
+		padding: 30px;
+	}
+
+	.devicon-ubuntu-plain-wordmark {
+		padding: 30px;
+	}
+
+	.resume-button {
+		padding-top: 35px;
+	}
+
+	.ghost-button-transition {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: rgb(17, 85, 119);
+		border: 2px solid rgb(17, 85, 119);
+		border-radius: 5px;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		transition: background-color 0.2s ease-out,
+		color 0.2s ease-out;
+	}
+
+	.ghost-button:hover,
+	.ghost-button:active {
+		background-color: rgb(17, 85, 119);
+		color: white;
+		transition: background-color 0.3s ease-in,
+					color 0.3s ease-in;
+	}
+
+	.ghost-button {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: rgb(17, 85, 119);
+		border: 1px solid rgb(17, 85, 119);
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+	}
+
+	.row {
+		padding: 22px
+	}
+	body {
+		color: gray;
+		background-color: white;
+		height: 100%;
+		width: 100%;
+		padding-top: 50px;
+	}
+	.nav-pills a{
+		
+		color: gray; 
+		font-size: 1.4em;
+	}
+
+	.nav-pills {
+		background-color: white;
+	}
+
+	.tools-section {
+		padding-top: 45px;
+	}
+
+	.tools-section3 {
+		padding-top: 18px;
+	}
+
+	.tools-section2 {
+		padding-top: 30px;
+		padding-bottom: 18px;
+	}
+
+	.btn-linkedin {
+		padding: 18px 18px;
+    	font-size: 18px;
+    	border-radius: 8px;
+	}
+
+	.btn-github {
+		padding: 18px 18px;
+    	font-size: 18px;
+    	border-radius: 10px;
+	}
+
+	.btn-dropbox {
+		padding: 18px 18px;
+    	font-size: 18px;
+    	border-radius: 10px;
+	}
+
+	.block {
+		background-color: white;
+		opacity: 0.7;
+		padding: 10px;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+
+	h1 {
+		padding: 0;
+		margin-top: 0px;
+		font-size: 4.0em;
+		color: gray;
+	}
+
+	h2 {
+		color: rgb(17, 85, 119);
+	}
+
+	h4 {
+		color: black; 
+	}
+
+	h5 {
+		color: black;
+	}
+
+	.pageOne {
+		
+		background:url("https://images.unsplash.com/photo-1462819067004-905a72ea3996?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4832f28a526c7a3538a887b8fbbfe897");
+		background-size: cover;
+		height: 700px;
+		width: 100%;
+		
+		
+	}
+
+	.chip8 {
+		color: white;
+
+	}
+
+	.chip82 {
+		color: white; 
+	}
+
+	.pageTwo {
+		
+		background-color: rgb(17, 85, 119);
+		background-size: cover;
+		height: 1020px;
+		width: 100%;
+		
+	}
+
+	.progress-info {
+		color: blue;
+
+	}
+	.pageSkills {
+		padding: 20px;
+		height: 700px;
+		color: black;
+	}
+
+	.pageContact {
+		padding: 30px;
+		height: 700px;
+		color: rgb(17, 85, 119);
+	}

@@ -8,10 +8,12 @@
 		<link rel="stylesheet"
 		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap-social.css">
 		<link rel="stylesheet" href="ihover.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<link rel="stylesheet" href="style.css">
+		<script src="https://use.fontawesome.com/3b491fed7c.js"></script>
 		<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script
@@ -77,7 +79,7 @@
 						</div>
 					</div>
 						<div class="chip8 text-center">
-							<h2>GS8 - A Chip 8 Emulator</h2>
+							<h3>GS8 - A Chip 8 Emulator</h3>
 						</div>	
 						<div class="chip82">
 							<p>Description: This is a Chip 8 emulator written in C++, which can play most Chip 8 games.</p>
@@ -98,7 +100,7 @@
 						</div>
 					</div>
 						<div class="chip8 text-center">
-							<h2>A Replica 2048 Game</h2>
+							<h3>A Replica 2048 Game</h3>
 						</div>	
 						<div class="chip82">
 							<p>Description: This was a project that we were assigned in one of my Computer Science Classes.</p>
@@ -119,10 +121,10 @@
 						</div>
 					</div>
 						<div class="chip8 text-center">
-							<h2>This Website</h2>
+							<h3>This Website</h3>
 						</div>	
 						<div class="chip82">
-							<p>Description: I had some time to spare, so why not make a website!</p>
+							<p>Description: I had some time to spare and the domain was available, so why not make a website!</p>
 							<p>Technologies Used: HTML, CSS, Bootstrap</p>
 							<p>Side Effects: I remembered how much I struggle with the artistic aspect.</p>
 						</div>

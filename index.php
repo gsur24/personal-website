@@ -219,11 +219,32 @@
 				</form>
 			</div>
 		</div>
-		<div class="footer">
-				<div class="container">
-					<p>Footer content here</p>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h6>Copyright &copy; 2016 Gokul Suresh</h6>
+					</div>
+					<div class="col-sm-4">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#body">Home</a></li>
+							<li><a href="#jumbo">Projects</a></li>
+							<li><a href="#skill">Skills</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h6>Links</h6>
+						<ul class="unstyled">
+							<li><a href="https://www.linkedin.com/in/gokuls24">LinkedIn</a></li>
+							<li><a href="https://github.com/gsur24">GitHub</a></li>
+							<li><a href="untitled.pdf">Resume</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
+		</footer>
 
 			<script>
 			$(function() {

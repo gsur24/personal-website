@@ -15,14 +15,11 @@
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<link rel="stylesheet" href="style.css">
 		<script src="https://use.fontawesome.com/3b491fed7c.js"></script>
-		<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script
-		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 	</head>
 	<body id="body">
-		
 		<div class="pageOne">
 			<div class="navbar-fixed-top">
 				<ul class = "nav nav-pills">
@@ -42,7 +39,9 @@
 			</div>
 			<div class="block text-center">
 				<h1>Gokul Suresh</h1>
-				<h4>Computer Science Student | Programmer | Tennis Player</h4>
+				<h4 class="typed">
+					Hi there! My name's Gokul and I'm a Computer Science student who loves to make things <span class="changer">happen.</span><span class="blinker">|</span>
+				</h4>
 				<div class = "btnList">
 					<a class="btn btn-social-icon btn-github" href="https://github.com/gsur24">
 						<span class="fa fa-github"></span>
@@ -55,6 +54,7 @@
 					</a>
 				</div>
 			</div>
+
 		</div>
 
 		<div class="pageTwo">
@@ -219,6 +219,7 @@
 					<button type="submit" class="btn btn-default">Submit</button>
 				</form>
 			</div>
+
 		</div>
 		<footer>
 			<div class="container">
@@ -245,6 +246,7 @@
 					</div>
 				</div>
 			</div>
+
 		</footer>
 
 			<script>

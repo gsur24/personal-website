@@ -1,4 +1,4 @@
-.container-fluid {
+	.container-fluid {
 		margin-left: 15%;
 	}
 
@@ -12,6 +12,38 @@
 
 	.devicon-bootstrap-plain-wordmark {
 		padding: 30px;
+	}
+
+	.typed {
+		animation: type 10s;
+		width: 930px;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	@keyframes type {
+		0%{width: 0px;}
+	}
+
+	.blinker {
+		animation: blinker 1s infinite;
+	}
+
+	@keyframes blinker {
+		0%{opacity: 0;}
+	}
+
+	.changer {
+		
+		animation: changer 8s infinite;
+	}
+
+	@keyframes changer {
+		0%{color: red}
+		25%{color: purple;}
+		50%{color: blue;}
+		75%{color: green;}
+		100%{color: red;}
 	}
 
 	.devicon-javascript-plain {

@@ -15,8 +15,8 @@
 	}
 
 	.typed {
-		animation: type 10s;
-		width: 930px;
+		animation: type 3s;
+		
 		white-space: nowrap;
 		overflow: hidden;
 	}
@@ -174,7 +174,7 @@
 		background-color: white;
 		opacity: 0.7;
 		padding: 10px;
-		width: 75%;
+		width: 85%;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 10px;

@@ -40,7 +40,7 @@
 			<div class="block text-center">
 				<h1>Gokul Suresh</h1>
 				<h4 class="typed">
-					Hi there! My name's Gokul and I'm a Computer Science student who loves to make things <span class="changer">happen.</span><span class="blinker">|</span>
+					Hi there! My name's Gokul, and I'm a Computer Science student who loves to make things <span class="changer">happen. </span><span class="blinker">|</span>
 				</h4>
 				<div class = "btnList">
 					<a class="btn btn-social-icon btn-github" href="https://github.com/gsur24">
@@ -68,7 +68,7 @@
 			</header>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-4 col-sm-6 ">
+					<div class="col-sm-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
 							<a href="https://github.com/gsur24/gs8-chip8emulator">
 								<div class="img"><img src="chip8.png" alt="img"></div>
@@ -89,7 +89,7 @@
 						</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-sm-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
 							<a href="">
 								<div class="img"><img src="2048.png" alt="img"></div>
@@ -110,7 +110,7 @@
 						</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-sm-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
 							<a href="">
 								<div class="img"><img src="website.png" alt="img"></div>

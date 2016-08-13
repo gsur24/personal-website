@@ -55,6 +55,10 @@
 				</div>
 			</div>
 
+			<div class="enter-button text-center">
+				<a class="ghost1-button text-center" href="#jumbo">Enter</a>
+			</div>
+
 		</div>
 
 		<div class="pageTwo">
@@ -179,19 +183,19 @@
 					</div>
 				</div>
 				<div class="tools-section col-md-6 col-lg-6 text-center">
-					<i class="devicon-bootstrap-plain-wordmark colored fa-5x"></i>
-					<i class="devicon-git-plain-wordmark colored fa-5x"></i>
-					<i class="devicon-vim-plain colored fa-5x"></i>
+					<i class="devicon-bootstrap-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Bootstrap"></i>
+					<i class="devicon-git-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Git"></i>
+					<i class="devicon-vim-plain colored fa-5x" data-toggle="tooltip" title="Vim Editor"></i>
 				</div>
 				<div class="tools-section2 col-md-6 col-lg-6 text-center">
-					<i class="devicon-android-plain-wordmark colored fa-5x"></i>
-					<i class="devicon-ubuntu-plain-wordmark colored fa-5x"></i>
-					<i class="devicon-linux-plain colored fa-5x"></i>
+					<i class="devicon-android-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Android Development"></i>
+					<i class="devicon-ubuntu-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Ubuntu"></i>
+					<i class="devicon-linux-plain colored fa-5x" data-toggle="tooltip" title="Linux"></i>
 				</div>
 				<div class="tools-section3 col-md-6 col-lg-6 text-center">
-					<i class="devicon-javascript-plain colored fa-5x"></i>
-					<i class="devicon-photoshop-plain colored fa-5x"></i>
-					<i class="devicon-jquery-plain-wordmark colored fa-5x"></i>
+					<i class="devicon-javascript-plain colored fa-5x" data-toggle="tooltip" title="Javascript"></i>
+					<i class="devicon-mysql-plain colored fa-5x" data-toggle="tooltip" title="MySQL"></i>
+					<i class="devicon-jquery-plain-wordmark colored fa-5x" data-toggle="tooltip" title="jQuery"></i>
 				</div>
 				
 			</div>
@@ -264,6 +268,11 @@
 				    }
 				  });
 				});
+		</script>
+		<script>
+			$(document).ready(function(){
+			    $('[data-toggle="tooltip"]').tooltip();
+			});
 		</script>
 	</body>
 

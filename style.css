@@ -2,7 +2,7 @@
 		margin-left: 15%;
 	}
 
-	.devicon-photoshop-plain {
+	.devicon-mysql-plain {
 		padding: 30px;
 	}
 
@@ -70,6 +70,12 @@
 		padding: 30px;
 	}
 
+	.enter-button {
+		position: absolute;
+		bottom: 5%;
+		right: 40%;
+	}
+
 	.resume-button {
 		padding-top: 35px;
 	}
@@ -102,6 +108,7 @@
 
 	.ghost-button:hover,
 	.ghost-button:active {
+		text-decoration: none;
 		background-color: rgb(17, 85, 119);
 		color: white;
 		transition: background-color 0.3s ease-in,
@@ -118,6 +125,41 @@
 		outline: none;
 		text-decoration: none;
 	}
+
+	.ghost1-button-transition {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: black;
+		border: 2px solid rgb(255, 255, 255);
+		border-radius: 5px;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		transition: background-color 0.2s ease-out,
+		color 0.2s ease-out;
+	}
+
+	.ghost1-button:hover,
+	.ghost1-button:active {
+		text-decoration: none;
+		background-color: white;
+		color: black;
+		transition: background-color 0.3s ease-in,
+					color 0.3s ease-in;
+	}
+
+	.ghost1-button {
+		display: inline-block;
+		width: 250px;
+		padding: 8px;
+		color: rgb(255, 255, 255);
+		border: 1px solid rgb(255, 255, 255);
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+	}
+
 
 	.row {
 		padding: 22px
@@ -202,6 +244,74 @@
 	h5 {
 		color: black;
 	}
+
+	.demo a {
+		padding-left: 10px;
+		position: absolute;
+		bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		display: inline-block;
+		-webkit-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		color: #fff;
+		font : normal 400 20px/1 'Josefin Sans', sans-serif;
+		letter-spacing: .1em;
+		text-decoration: none;
+		transition: opacity .3s;
+	}
+
+	.demo a:hover {
+		opacity: .5;
+	} 
+
+	scrollbtn a span {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 24px;
+		height: 24px;
+		margin-left: -12px;
+		border-left: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		-webkit-animation: sdb05 1.5s infinite;
+		animation: sdb05 1.5s infinite;
+		box-sizing: border-box;
+	}
+
+	@-webkit-keyframes sdb05 {
+		0% {
+			-webkit-transform: rotate(-45deg) translate(0, 0);
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+			opacity: 0;
+		}
+	}
+
+	@keyframes sdb05 {
+		0% {
+			transform: rotate(-45deg) translate(0, 0);
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			transform: rotate(-45deg) translate(-20px, 20px);
+			opacity: 0;
+		}
+	}
+
 
 	.pageOne {
 		

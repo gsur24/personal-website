@@ -9,6 +9,7 @@
 		<link rel="stylesheet"
 		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap-social.css">
 		<link rel="stylesheet" href="ihover.css">

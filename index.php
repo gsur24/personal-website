@@ -4,12 +4,10 @@
 		<title>Gokul Suresh</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="Hi! I'm Gokul Suresh, and this is my personal portfolio website."/>
 		<link rel="stylesheet"
 		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
-		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap-social.css">
 		<link rel="stylesheet" href="ihover.css">
@@ -17,7 +15,9 @@
 		<link rel="stylesheet" href="style.css">
 		<script src="https://use.fontawesome.com/3b491fed7c.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+		<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+		<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
 
 	</head>
 	<body id="body">
@@ -28,22 +28,29 @@
 			<div class="loader-section section-right"></div>
 		</div> 
 		<div class="pageOne">
-			<div class="navbar-fixed-top">
-				<ul class = "nav nav-pills">
-					<li>
-						<a href="#body">GS</a>
-					</li>
-		
-					<li class = "pull-right">
-						<a href="#contact">Contact Me</a>
-					<li class = "pull-right">
-						<a href="#skill">Skills</a>
-					</li>
-					<li class = "pull-right">
-						<a href="#jumbo">Projects</a>
-					</li>
-				</ul>
-			</div>
+			<nav class="navbar navbar-fixed-top navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>	
+					<a class="navbar-brand" href="#body">Gokul Suresh</a>
+				</div>  
+				<div class="navbar-collapse collapse" id="myNavbar">      
+					<ul class="nav nav-pills">
+						<li class="pull-right">
+							<a href="#contact">Contact Me</a>
+						<li class="pull-right">
+							<a href="#skill">Skills</a>
+						</li>
+						<li class="pull-right">
+							<a href="#jumbo">Projects</a>
+						</li>
+					</ul>
+				</div>	
+			</nav>
+			
 			<div class="block text-center">
 				<h1>Gokul Suresh</h1>
 				<h4 class="typed">
@@ -79,7 +86,7 @@
 			</header>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
 							<a href="https://github.com/gsur24/gs8-chip8emulator">
 								<div class="img"><img src="chip8.png" alt="img"></div>
@@ -90,6 +97,7 @@
 							</a>
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="chip8 text-center">
 							<h3>GS8 - A Chip 8 Emulator</h3>
 						</div>	
@@ -98,9 +106,10 @@
 							<p>Technologies Used: C++, SDL2 Graphics Library</p>
 							<p>Side Effects: Took a few days to start reading numbers in decimal rather than hexadecimal again.</p>
 						</div>
+					</div>	
 				</div>
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
 							<a href="">
 								<div class="img"><img src="2048.png" alt="img"></div>
@@ -111,6 +120,7 @@
 							</a>
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="chip8 text-center">
 							<h3>A Replica 2048 Game</h3>
 						</div>	
@@ -119,11 +129,12 @@
 							<p>Technologies Used: Java, JavaFX</p>
 							<p>Side Effects: None really. If anything, I started enjoying college even more than I already did.</p>
 						</div>
+					</div>	
 				</div>
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
-							<a href="https://github.com/gsur24/gsur24.github.io">
+							<a href="">
 								<div class="img"><img src="website.png" alt="img"></div>
 								<div class="info">
 									<h3>This Website</h3>
@@ -132,6 +143,7 @@
 							</a>
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="chip8 text-center">
 							<h3>This Website</h3>
 						</div>	
@@ -140,6 +152,7 @@
 							<p>Technologies Used: HTML, CSS, Bootstrap</p>
 							<p>Side Effects: I remembered how much I struggle with the artistic aspect.</p>
 						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -151,7 +164,7 @@
 						<h4 class="text-center">Here are some of the technologies that I'm familiar with using</h4>
 					</div>
 				</div>
-				<div class="language-section col-md-6 col-lg-6">
+				<div class="language-section col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4 class="text-center">Java</h4>
 					
 					<div class = "progress">
@@ -189,20 +202,28 @@
    						</div>
 					</div>
 				</div>
-				<div class="tools-section col-md-6 col-lg-6 text-center">
-					<i class="devicon-bootstrap-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Bootstrap"></i>
-					<i class="devicon-git-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Git"></i>
-					<i class="devicon-vim-plain colored fa-5x" data-toggle="tooltip" title="Vim Editor"></i>
-				</div>
-				<div class="tools-section2 col-md-6 col-lg-6 text-center">
-					<i class="devicon-android-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Android Development"></i>
-					<i class="devicon-ubuntu-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Ubuntu"></i>
-					<i class="devicon-linux-plain colored fa-5x" data-toggle="tooltip" title="Linux"></i>
-				</div>
-				<div class="tools-section3 col-md-6 col-lg-6 text-center">
-					<i class="devicon-javascript-plain colored fa-5x" data-toggle="tooltip" title="Javascript"></i>
-					<i class="devicon-mysql-plain colored fa-5x" data-toggle="tooltip" title="MySQL"></i>
-					<i class="devicon-jquery-plain-wordmark colored fa-5x" data-toggle="tooltip" title="jQuery"></i>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="tools-sectionnone row text-center">
+		
+						<i class="devicon-bootstrap-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Bootstrap"></i>
+						<i class="devicon-git-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Git"></i>
+						<i class="devicon-vim-plain colored fa-5x" data-toggle="tooltip" title="Vim Editor"></i>
+							
+					</div>
+					<div class="tools-sectiontwo row text-center">
+						
+						<i class="devicon-android-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Android Development"></i>
+						<i class="devicon-ubuntu-plain-wordmark colored fa-5x" data-toggle="tooltip" title="Ubuntu"></i>
+						<i class="devicon-linux-plain colored fa-5x" data-toggle="tooltip" title="Linux"></i>
+						
+					</div>
+					<div class="tools-sectionthree row text-center">
+						
+						<i class="devicon-javascript-plain colored fa-5x" data-toggle="tooltip" title="Javascript"></i>
+						<i class="devicon-mysql-plain colored fa-5x" data-toggle="tooltip" title="MySQL"></i>
+						<i class="devicon-jquery-plain-wordmark colored fa-5x" data-toggle="tooltip" title="jQuery"></i>
+						
+					</div>
 				</div>
 				
 			</div>

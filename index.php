@@ -134,7 +134,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="ih-item square effect6 from_top_and_bottom">
-							<a href="">
+							<a href="https://github.com/gsur24/gsur24.github.io">
 								<div class="img"><img src="website.png" alt="img"></div>
 								<div class="info">
 									<h3>This Website</h3>
